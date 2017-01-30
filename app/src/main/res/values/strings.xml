@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ok">OK</string>
+
+    <string name="app_name">Cifer</string>
+    <string name="title_section1">Encrypter</string>
+    <string name="title_section2">Decrypter</string>
+
+    <string name="action_copy">Copy</string>
+    <string name="action_share">Share</string>
+
+    <string name="enter_text">Enter plaintext here</string>
+    <string name="enter_key">Enter keystring here</string>
+    <string name="encrypt_button">Encrypt!</string>
+    <string name="share_button_key">Share Key</string>
+    <string name="share_button_encryptedText">Share Encrypted Text</string>
+
+    <string name="enter_crypt_text">Paste encrypted text here</string>
+    <string name="decrypt_button">Decrypt!</string>
+
+    <string name="showcase_main_title">Switch Modes</string>
+    <string name="showcase_main_message">Swipe left or right to switch between Encrypt and Decrypt modes</string>
+
+
+</resources>

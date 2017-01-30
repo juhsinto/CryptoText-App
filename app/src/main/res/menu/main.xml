@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--tools:context=".MainActivity"-->
+
+
+    <!-- actionbar item Copy -->
+    <item
+        android:id="@+id/action_copy"
+        android:icon="@drawable/ic_action_copy"
+        android:title="@string/action_copy"
+        app:showAsAction="ifRoom|withText">
+        <menu xmlns:app="http://schemas.android.com/apk/res-auto">
+                <item
+                    android:id="@+id/copy_encr_str"
+                    android:title="Encrypted Text" />
+                <item
+                    android:id="@+id/copy_key_str"
+                    android:title="Keystring" />
+        </menu>
+    </item>
+
+    <!-- actionbar item Share -->
+    <item android:id="@+id/action_share"
+        android:icon="@drawable/ic_action_share"
+        android:title="@string/action_share"
+        app:showAsAction="ifRoom|withText">
+        <menu xmlns:app="http://schemas.android.com/apk/res-auto">
+            <item
+                android:id="@+id/share_encr_str"
+                android:title="Encrypted Text"
+                />
+            <item
+                android:id="@+id/share_key_str"
+                android:title="Keystring" />
+        </menu>
+    </item>
+
+</menu>
